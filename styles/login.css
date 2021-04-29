@@ -123,6 +123,16 @@ button {
     margin: 0 5px;
 }
 
+a:link, a:visited, a:hover {
+    color: white;
+    text-decoration: none;
+
+}
+
+input {
+    color: white;
+}
+
 .tail {
     color: white;
     position: absolute;
