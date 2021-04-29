@@ -4,14 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>asdasdasdsa</title>
+    <link rel="stylesheet" type="text/css" href="../styles/login.css">
+    <title>{{title}}</title>
 </head>
 <body>
-    <form action="/main" method="post">
-        I      D<input type="text" name="id">
-        PASSWORD<input type="password" name="password">
-        <button name="main" type="submit">로그인</button>
-        <a name="join" href="/join">회원가입</a>
-    </form>
+<!--    <form action="/main" method="post">-->
+<!--        I      D<input type="text" name="id">-->
+<!--        PASSWORD<input type="password" name="password">-->
+<!--        <button name="main" type="submit">로그인</button>-->
+<!--        <a name="join" href="/join">회원가입</a>-->
+<!--    </form>-->
+<div class="head">
+    <h1 class="banner__kakao">kakao</h1>
+    <h1 class="banner__story">story</h1>
+</div>
+<div class="login-container">
+    <div class="login__text">
+        <div>
+            <span>지금 </span>
+            <span>당신과</span>
+        </div>
+        <div>카카오스토리</div>
+    </div>
+    <div class="login__input">
+        <div><input type="text" placeholder="카카오메일 아이디, 이메일, 전화번호"></div>
+        <div><input type="password" placeholder="비밀번호"></div>
+    </div>
+    <div class="checkbox-div"><input type="checkbox"><label>로그인 상태 유지</label></div>
+    <div class="login-btn">
+        <button type="button">로그인</button>
+    </div>
+    <div class="or-div">또는</div>
+    <div class="QR-btn">
+        <button type="button"><span>아이콘</span>QR코드 로그인</button>
+    </div>
+    <div class="oh"><a>회원가입</a>
+        <ul>
+            <li><a>카카오계정</a></li>
+            <li><a>비밀번호 찾기</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="tail">
+    <div class="tail__list">
+        <span><a>이용약관</a></span>
+        <span><a>개인정보 처리방침</a></span>
+        <span><a>운영정책</a></span>
+        <span><a>고객센터</a></span>
+        <span><a>공지사항</a></span>
+        <span>한국어</span>
+    </div>
+    <div class="copyright">Copyright &copy <a class="copyright__a">Kakao Corp.</a>All rights reserved.</div>
+</div>
 </body>
 </html>

@@ -3,3 +3,148 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://mud-kage.kakao.com/dn/7L13h/btqlikd27AR/iHN9Hmz0Qu11ZXHK6k2j5k/image.jpg");
+
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    color: white;
+    font-size: 14px;
+
+    left: 20px;
+    top: 15px;
+    position: absolute;
+}
+
+.banner__kakao {
+    font-weight: normal;
+}
+
+.login-container {
+    color: white;
+    width: 400px;
+}
+
+.login__text {
+    font-size: 2.2em;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.login__text div span:nth-of-type(2) {
+    font-weight: bold;
+}
+
+.login__input {
+    margin: 20px 0;
+}
+
+.login__input div input {
+    background-color: transparent;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+.login__input div input::placeholder {
+    color: white;
+    font-size: 1.1em;
+}
+
+.checkbox-div {
+    margin: 20px 0;
+}
+input[type="checkbox"] {
+    zoom: 2;
+}
+
+.checkbox-div label {
+    margin: 5px
+}
+.login-btn, .QR-btn {
+    margin: 5px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+.login-btn button {
+    background-color: #fce301;
+}
+
+.QR-btn button {
+    background-color: #f6f6f6;
+}
+
+.or-div {
+    font-size: 0.7em;
+    color: rgba(255, 255, 255,0.9);
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+.or-div::before, .or-div::after {
+    display: inline-block;
+    width: calc(50% - 40px);
+    height: 1px;
+    margin: 8px 10px;
+    background-color: rgba(255, 255, 255,0.6);
+    vertical-align: top;
+    content: '';
+}
+
+.oh {
+    font-size: 0.7em;
+    font-weight: bold;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oh ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.oh ul li:nth-of-type(2)::before {
+    content: '|';
+    margin: 0 5px;
+}
+
+.tail {
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 15px;
+    font-size: 0.8em;
+}
+
+.tail__list {
+    margin: 10px;
+}
+
+.tail__list span {
+    margin: 5px;
+}
+
+.copyright {
+    margin: 5px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.copyright__a {
+    font-weight: bold;
+}
